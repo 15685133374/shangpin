@@ -1,0 +1,39 @@
+.sortTitle{
+height: 44px;
+    border-bottom: 1px solid #E5E5E5;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    list-style: none;
+}
+.sortTitle li a{
+    text-decoration: none;
+}
+.sortShopList{
+    width: 100%;
+    list-style: none;
+    height: auto;
+}
+.sortShopList li{
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.sortShopList li a {
+    text-decoration: none;
+}
+.sortShopList li a img{
+    width: 25px;
+    height: 25px;
+    margin: auto 20px;
+}
+.sortShopList li a i{
+    float: right;
+    background: url("https://mcss3.shangpin.com/styles/shangpin/images/arrow.png?2017")no-repeat;
+    width: 10px;
+    height: 15px;
+    background-size: 10px 15px;
+    margin: 11px 10px;
+}
+

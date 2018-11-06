@@ -1,0 +1,37 @@
+.selectContent{
+    width: 100%;
+    height: auto;
+    padding-bottom: 70px;
+}
+.selectContent a{
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.selectContent a img{
+    width: 100%;
+    height: auto;
+}
+.selectContent a .text{
+    position: absolute;
+    width: 70%;
+    text-align: center;
+    background: white;
+    z-index: 2;
+    height: 66px;
+    bottom:-76px;
+    left: 15%;
+    padding: 0 5px;
+}
+.text h3{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.text p{
+    font-size: 17px;
+    margin-top: -5px;
+}
